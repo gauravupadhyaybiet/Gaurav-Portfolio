@@ -12,11 +12,11 @@ const education = [
     courses: ["Data Structures & Algorithms", "Operating Systems", "DBMS", "Software Engineering", "Web Technologies", "AI Basics"]
   },
   {
-    title: "intermediate",
+    title: "Intermediate",
     institution: "R.A.G.A.V Inter college",
     period: "2018 - 2020",
     description: "Specialized in Science Stream with emphasis on Mathematics and Computer Science.",
-    courses: ["Mathematics", "Physics", "Chemestry"]
+    courses: ["Mathematics", "Physics", "Chemistry"]
   },
   {
     title: "Future Work Experience",
@@ -46,7 +46,10 @@ const Education: React.FC = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen py-20 px-6 bg-white text-gray-900">
+    <section
+      id="experience"   // 👈 this is the missing part
+      className="relative min-h-screen py-20 px-6 bg-white text-gray-900"
+    >
       <h2 className="text-5xl font-bold text-center mb-6 animate-on-scroll opacity-0 translate-y-6 transition-all duration-700">
         Education & Experience
       </h2>
@@ -82,7 +85,9 @@ const Education: React.FC = () => {
                 {item.courses && item.courses.length > 0 && (
                   <div className="flex flex-wrap gap-2">
                     {item.courses.map(course => (
-                      <Badge key={course} className="bg-primary/20 text-primary border border-primary/50">{course}</Badge>
+                      <Badge key={course} className="bg-primary/20 text-primary border border-primary/50">
+                        {course}
+                      </Badge>
                     ))}
                   </div>
                 )}
@@ -96,4 +101,5 @@ const Education: React.FC = () => {
 };
 
 export default Education;
+
 

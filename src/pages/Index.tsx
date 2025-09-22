@@ -11,7 +11,7 @@ import ScrollAnimator from '@/components/ScrollAnimator';
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Your Name | Software Engineer Portfolio";
+    document.title = " PORTFOLIO ";
   }, []);
 
   return (
