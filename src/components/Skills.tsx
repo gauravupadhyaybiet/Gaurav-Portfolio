@@ -4,7 +4,7 @@ const skills = {
   "Frontend Development": ["JavaScript", "TypeScript", "React",  "HTML/CSS", "Tailwind CSS"],
   "Backend Development": ["Node.js", "Express", "Python",  "RESTful APIs", ],
   "Database": ["MongoDB", "PostgreSQL", "Supabase" ,"Firebase"],
-  "Other" : ["excel", "Pandas","Prompt Engineering"],
+  "Other" : ["excel", "Pandas","Prompt Engineering","AI","ML"],
   "Tools" : ["Git/Github","Postman", "VS Code","Cursor", "AI Tools"]
 };
 
