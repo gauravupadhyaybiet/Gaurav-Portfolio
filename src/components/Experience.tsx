@@ -19,11 +19,12 @@ const education = [
     courses: ["Mathematics", "Physics", "Chemistry"]
   },
   {
-    title: "Future Work Experience",
-    institution: "Your Future Company",
-    period: "Coming Soon",
-    description: "Add your professional experience here as you gain it.",
-    courses: []
+      title:" Web Development Intern (Remote, 2025) – Alpha Innovations",
+       description:  " Built and optimized responsive web pages using React and Tailwind CSS. Integrated APIs and implemented CRUD operations for dynamic data handling , Collaborated with the team to enhance LMS features, improving UI/UX",
+      industrialcertificate : https://mail.google.com/mail/u/0/#search/al/FMfcgzQcqHSlBWFsHSZmtDbKqhvQtPFC?projector=1&messagePartId=0.1,
+      
+  
+
   },
 ];
 
