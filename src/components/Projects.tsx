@@ -14,14 +14,7 @@ const projects = [
     githubUrl: "https://github.com/gauravupadhyaybiet/gmart",
     liveUrl: "https://gmart-gules.vercel.app/",
   },
-  {
-    title: "Ai-Career-Coach",
-    description: "Ai-Career-Coach with Gemini ai which can generate resume , cover letter, quiz where user can see industries graph",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWYbkWhPKDBmXSVYeBId1tqdLEkFiFTETuOA&s",
-    tags: ["TypeScript", "react", "Supabase", "Tailwind CSS",],
-    githubUrl: "https://github.com/gauravupadhyaybiet/ai-carrer-coach",
-    liveUrl: "https://launchpad-lumi-9a14.vercel.app/",
-  },
+
   {
     title: "real-time-chat-buddy",
     description: "chat with ai intregate Gemini ai",
