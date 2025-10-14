@@ -23,6 +23,14 @@ const projects = [
     githubUrl: "https://github.com/gauravupadhyaybiet/real-time-chat-buddy",
     liveUrl: "https://real-time-chat-buddy.vercel.app/",
   },
+   {
+    title: "Sensai-ai",
+    description: "see industry insights ,resume builder ,cover letter and interview prep with ai",
+    image: "https://www.shutterstock.com/shutterstock/photos/2649849935/display_1500/stock-photo-ai-or-human-driven-skill-acquisition-and-training-with-icons-of-knowledge-goals-task-management-2649849935.jpg",
+    tags: ["javascript", "react", "Supabase", "Tailwind CSS",],
+    githubUrl: "https://github.com/gauravupadhyaybiet/Sensai",
+    liveUrl: "https://sensai-six-black.vercel.app/",
+  },
 ];
 
 const Projects: React.FC = () => {
