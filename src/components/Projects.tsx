@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "GMart",
+    title: "G-mart",
     description: "A Simple e-commerce platform built with  Node.js, and MongoDB intregated with rozarpay.",
     image: "https://cdn.shopify.com/s/files/1/0070/7032/files/website-design.jpg?v=1691011202",
     tags: [ "Node.js", "MongoDB", "Express", "ejs"],
@@ -16,12 +16,12 @@ const projects = [
   },
 
   {
-    title: "real-time-chat-buddy",
-    description: "chat with ai intregate Gemini ai",
-    image: "https://img.freepik.com/free-vector/flat-woman-chatting-with-chatbot-communicating-ai-robot-assistant_88138-959.jpg?semt=ais_incoming&w=740&q=80",
-    tags: ["TypeScript", "react", "Supabase", "Tailwind CSS",],
-    githubUrl: "https://github.com/gauravupadhyaybiet/real-time-chat-buddy",
-    liveUrl: "https://real-time-chat-buddy.vercel.app/",
+    title: "Distributed Job Scheduler & Worker System ",
+    description: "Designed an AI-powered career platform using React and Clerk authentication to generate resumes, cover letters, quiz questions, and industry analytics dashboards.",
+    image: "https://www.google.com/imgres?q=job%20scheduler%20image&imgurl=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fwp-content%2Fuploads%2F20240529185119%2FDistributed-Job-Scheduler-(1)-2.webp&imgrefurl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fsystem-design%2Fdesign-distributed-job-scheduler-system-design%2F&docid=w3-wbWth1nHPAM&tbnid=dJM8aWeR8aTfzM&vet=12ahUKEwjl6qKTwuCSAxVcyDgGHRl9H8EQnPAOegQIHhAB..i&w=1001&h=471&hcb=2&ved=2ahUKEwjl6qKTwuCSAxVcyDgGHRl9H8EQnPAOegQIHhAB",
+    tags: ["react", "Node.js", "Express.js", "Redis", "MongoDB", "JWT authentication"],
+    githubUrl: "https://github.com/gauravupadhyaybiet/distributed-task-scheduler-app",
+    liveUrl: "https://distributed-task-scheduler-app.vercel.app/",
   },
    {
     title: "Sensai-ai",
