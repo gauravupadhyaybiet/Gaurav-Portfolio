@@ -12,7 +12,7 @@ const projects = [
     image: "https://cdn.shopify.com/s/files/1/0070/7032/files/website-design.jpg?v=1691011202",
     tags: [ "Node.js", "MongoDB", "Express", "ejs"],
     githubUrl: "https://github.com/gauravupadhyaybiet/gmart",
-    liveUrl: "https://gmart-gules.vercel.app/",
+    liveUrl: "https://gmart-3jtj-git-main-gauravs-projects-3ab1b229.vercel.app/",
   },
 
   {
